@@ -14,7 +14,7 @@ time.sleep(2)
 driver.find_element(By.NAME, 'id').send_keys('sepiablur')
 time.sleep(2)
 
-driver.find_element(By.NAME, 'password').send_keys('qaqs1213!!')
+driver.find_element(By.NAME, 'password').send_keys('**********')
 time.sleep(15)
 
 driver.find_element(By.XPATH, '//*[@id="subConts"]/div/div/div/div/section/section/form/fieldset/div[2]/ul/li/a').click()
